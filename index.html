@@ -4,59 +4,97 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <title></title>
-<div class="logo">
-  <img src="images\logo.png">
-</div>
-<body>
 
-  <div class="navbar">
-   <ul>
-     <li>Product </li> |
-     <li>Inspiration  </li> |
-     <li>Why Living Space</li> |
-     <li>Start Your Project </li> |
-     <li>Blog </li> |
-     <li>Contact Us </li> |
-     <li>Become a Dealer </li> |
-     <li>Find a Dealer </li>
-   </ul>
- </div>
+  <body>
+    <div class="titlebar">
 
-<div class="slideshow-container">
+      <div class="logo">
+        <!-- <ul class="phone">
+          <li><i class="material-icons">phone</i>419.326.5441</li>
+        </ul> -->
+        <img href="" src="images\logo.png">
+        <div>
+          <!-- <button class="quotebtn">Request a Quote</button> -->
+          <button class="button"><span>Request a Quote </span></button>
+        </div>
+      </div>
+    </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="images\sunroom.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="images\conservatories.jpeg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
+    <!-- <i class="down material-icons">expand_more</i> -->
+    <div class="navbar">
+      <ul>
+        <li id="products">Products</li> |
+        <li>Inspiration </li> |
+        <li>Why Living Space</li> |
+        <li>Start Your Project </li> |
+        <li>Become a Dealer </li> |
+        <li>Find a Dealer </li> |
+        <li>Blog </li> |
+        <li>Contact Us </li>
+      </ul>
+    </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="images\livingspace.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
+    <div id="productsdiv">
+      <i id="close" class="material-icons">
+close
+</i>
+      <ul class="productslist">
+        <li class="producttitle">Sunrooms</li>
+        <li><img href="" class="thumbnails pic" src="//livingspacesunrooms.com//wp-content/uploads/2018/05/Cathedral.jpg"></li>
+        <li><img href="" class="thumbnails pic" src="//livingspacesunrooms.com///wp-content/uploads/2018/05/Studio.jpg"></li>
+        <li><img href="" class="thumbnails pic" src="//livingspacesunrooms.com///wp-content/uploads/2018/05/Integrated.jpg"></li>
+        <li><img href="" class="thumbnails pic" src="//livingspacesunrooms.com///wp-content/uploads/2018/05/Specialized.jpg"></li>
+        <li class="producttitle">Conservatories</li>
+        <li><img href="" class="thumbnails pic" src="//livingspacesunrooms.com////wp-content/uploads/2018/05/Conservatories.jpg"></li>
+      </ul>
+    </div>
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="slideshow-container">
 
-</div>
-<br>
+      <div class="mySlides fade">
+        <!-- <div class="numbertext">1 / 3</div> -->
+        <img src="//livingspacesunrooms.com/wp-content/uploads/2018/05/Home-Page-Hero.jpg" style="width:100%">
+        <div class="text textone">The sunroom reinvented<button class="button piconebtn"><span>Learn More </span></button></div>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+      </div>
 
-  <script src="script.js"></script>
-</body>
+      <div class="mySlides fade">
+        <!-- <div class="numbertext">2 / 3</div> -->
+        <img src="//livingspacesunrooms.com/wp-content/uploads/2018/04/Home-Page-Hero-1.jpg" style="width:100%">
+        <div class="text texttwo">Experience true living <button>Get a Quote</button></div>
+      </div>
 
-</html>
+      <div class="mySlides fade">
+        <!-- <div class="numbertext">3 / 3</div> -->
+        <img class="imagethree" src="//livingspacesunrooms.com/wp-content/uploads/2018/05/Say-Hello-To-Your-New-Favorite-Room.jpg" style="width:100%">
+        <div class="text textthree">Say hello to your new favorite room <button>Design Ideas</button></div>
+      </div>
+
+      <div class="mySlides fade">
+        <!-- <div class="numbertext">3 / 3</div> -->
+        <img class="imagethree" src="//livingspacesunrooms.com/wp-content/uploads/2018/04/Homepage-Hero-2.jpg" style="width:100%">
+        <div class="text textfour">Let your imagination run wild<button class="button picfourbtn"><span>Get Started! </span></button></div>
+      </div>
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+  </html>

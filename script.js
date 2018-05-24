@@ -1,3 +1,5 @@
+// (function (){
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -24,3 +26,19 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+var productsdiv = document.getElementById("productsdiv");
+var product = document.getElementById("products");
+var close = document.getElementById("close");
+
+productsdiv.style.display = "none";
+
+product.onclick = function () {
+  productsdiv.style.display  = "block"; 
+}
+
+close.onclick = function () {
+  productsdiv.style.display = "none";
+}
+
+// })();
