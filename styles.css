@@ -232,7 +232,7 @@ img {
 
 /* Caption text */
 
-.text {
+#text {
   /* font-family: 'Dancing Script', cursive; */
 font-family: 'Pacifico', cursive;
   color: white;
@@ -240,21 +240,17 @@ font-family: 'Pacifico', cursive;
   /* padding: 8px 12px; */
   position: absolute;
   /* bottom: 8px; */
-  /* width: 100%; */
+  width: 50%;
   text-align: center;
 /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
   background-color: #25477c;
   top: 60px;
-}
-
-.textone {
-
+  /* border-radius: 5px; */
 }
 
 
-
-.texttwo {
+#texttwo {
   /* font-family: 'Dancing Script', cursive; */
 font-family: 'Pacifico', cursive;
   color: white;
@@ -262,7 +258,7 @@ font-family: 'Pacifico', cursive;
   /* padding: 8px 12px; */
   position: absolute;
   bottom: 100px;
-  /* width: 100%; */
+  width: 50%;
   text-align: center;
 /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
@@ -271,7 +267,7 @@ box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
   right: 0px;
 }
 
-.textthree {
+#textthree {
   /* font-family: 'Dancing Script', cursive; */
 font-family: 'Pacifico', cursive;
   color: white;
@@ -279,7 +275,7 @@ font-family: 'Pacifico', cursive;
   /* padding: 8px 12px; */
   position: absolute;
   /* bottom: 100px; */
-  /* width: 100%; */
+  width: 60%;
   text-align: center;
 /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
@@ -288,7 +284,7 @@ box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
   right: 0px;
 }
 
-.textfour {
+#textfour {
   /* font-family: 'Dancing Script', cursive; */
 font-family: 'Pacifico', cursive;
   color: white;
@@ -296,7 +292,7 @@ font-family: 'Pacifico', cursive;
   /* padding: 8px 12px; */
   position: absolute;
   bottom: 100px;
-  /* width: 100%; */
+  width: 60%;
   text-align: center;
 /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
@@ -366,7 +362,7 @@ box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
   }
 }
 
-@media only screen and (max-width: 958px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     display: none;
   }
