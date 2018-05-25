@@ -34,6 +34,9 @@ var textone = document.getElementById("text");
 var texttwo = document.getElementById("texttwo");
 var textthree = document.getElementById("textthree");
 var textfour = document.getElementById("textfour");
+var viewheadline = document.getElementById("viewicon")
+var mobilenav = document.getElementById("mobilenav")
+var xout = document.getElementById("xout")
 
 productsdiv.style.display = "none";
 
@@ -79,6 +82,17 @@ textfour.onmouseover = function () {
 
 textfour.onmouseout = function () {
   textfour.style.width = "60%";
+}
+
+
+mobilenav.style.display = "none"
+
+viewheadline.onclick = function () {
+  mobilenav.style.display = "block";
+}
+
+xout.onclick = function () {
+  mobilenav.style.display = "none";
 }
 
 
