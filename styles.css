@@ -91,6 +91,7 @@ ul {
   cursor: pointer;
 }
 
+
 .button {
   font-family: Verdana;
   border-radius: 2px;
@@ -98,7 +99,7 @@ ul {
   border: none;
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 3vw;
   padding: 20px;
   transition: all 0.5s;
   cursor: pointer;
@@ -113,7 +114,7 @@ ul {
   border: none;
   color: #25477c;
   text-align: center;
-  font-size: 20px;
+  font-size: 2vw;
   padding: 20px;
   transition: all 0.5s;
   cursor: pointer;
@@ -166,7 +167,7 @@ img {
 /* Slideshow container */
 
 .slideshow-container {
-  max-width: auto;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -205,9 +206,11 @@ img {
 #text {
   font-family: 'Pacifico', cursive;
   color: white;
-  font-size: 40px;
+  font-size: 3vw;
   position: absolute;
   width: 50%;
+  max-width: 100%;
+  height: auto;
   text-align: center;
   box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
   background-color: #25477c;
@@ -221,6 +224,8 @@ img {
   position: absolute;
   bottom: 100px;
   width: 50%;
+  max-width: 100%;
+  height: auto;
   text-align: center;
   box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
   background-color: #25477c;
@@ -233,6 +238,8 @@ img {
   font-size: 35px;
   position: absolute;
   width: 60%;
+  max-width: 100%;
+  height: auto;
   text-align: center;
   box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
   background-color: #25477c;
@@ -247,6 +254,8 @@ img {
   position: absolute;
   bottom: 100px;
   width: 60%;
+  max-width: 100%;
+  height: auto;
   text-align: center;
   box-shadow: -2px 2px 14px -1px rgba(0, 0, 0, 0.75);
   background-color: #25477c;
@@ -329,5 +338,9 @@ img {
   }
   #viewicon {
     display: block;
+  }
+
+  img {
+    max-width: 100%;
   }
 }

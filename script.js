@@ -32,6 +32,7 @@ function showSlides(n) {
 
 var productsdiv = document.getElementById("productsdiv");
 var product = document.getElementById("products");
+var product2 = document.getElementById("product2");
 var close = document.getElementById("close");
 var textone = document.getElementById("text");
 var texttwo = document.getElementById("texttwo");
@@ -44,6 +45,10 @@ var xout = document.getElementById("xout")
 productsdiv.style.display = "none";
 
 product.onclick = function() {
+  productsdiv.style.display = "block";
+}
+
+products2.onclick = function() {
   productsdiv.style.display = "block";
 }
 
